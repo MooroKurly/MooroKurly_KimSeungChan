@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="FirstVC" id="Y6W-OH-hqX" customClass="FirstVC" customModule="marketKurly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YT9-rf-R3I">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                <color key="backgroundColor" red="0.40392160420000001" green="0.0" blue="0.52549022440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1bi-2b-JYK">
+                                <rect key="frame" x="151" y="56" width="111" height="32"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0T-25-5IC">
+                                <rect key="frame" x="319" y="59" width="22" height="26"/>
+                                <state key="normal" image="buttonMap"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBn-oq-j5U">
+                                <rect key="frame" x="363" y="58" width="31" height="27"/>
+                                <state key="normal" image="buttonCart"/>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cEH-w0-Th5" userLabel="collectionView">
+                                <rect key="frame" x="0.0" y="130" width="414" height="766"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PhW-zG-07l">
+                                    <size key="itemSize" width="82" height="30"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YT9-rf-R3I" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="0GG-RX-Zhj"/>
+                            <constraint firstItem="1bi-2b-JYK" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="12" id="5Qv-ty-bv8"/>
+                            <constraint firstItem="UBn-oq-j5U" firstAttribute="leading" secondItem="V0T-25-5IC" secondAttribute="trailing" constant="22" id="6Sw-Hi-24K"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="UBn-oq-j5U" secondAttribute="bottom" constant="728" id="6fV-Yq-3dJ"/>
+                            <constraint firstItem="cEH-w0-Th5" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="9bF-o3-Xm4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1bi-2b-JYK" secondAttribute="trailing" constant="152" id="Fnq-u2-XQ0"/>
+                            <constraint firstItem="YT9-rf-R3I" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Lti-LM-9vO"/>
+                            <constraint firstItem="V0T-25-5IC" firstAttribute="leading" secondItem="1bi-2b-JYK" secondAttribute="trailing" constant="57" id="OB4-z1-Jhs"/>
+                            <constraint firstAttribute="bottom" secondItem="cEH-w0-Th5" secondAttribute="bottom" id="SLh-S8-NKE"/>
+                            <constraint firstItem="cEH-w0-Th5" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="b0l-em-Sxx"/>
+                            <constraint firstItem="UBn-oq-j5U" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="14" id="cPO-cv-LcM"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="V0T-25-5IC" secondAttribute="bottom" constant="728" id="cp9-gz-bz0"/>
+                            <constraint firstItem="cEH-w0-Th5" firstAttribute="top" secondItem="YT9-rf-R3I" secondAttribute="bottom" constant="30" id="gOI-zL-gMs"/>
+                            <constraint firstItem="YT9-rf-R3I" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="gsi-0C-TVw"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="1bi-2b-JYK" secondAttribute="bottom" constant="725" id="o6k-Uv-zHI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="YT9-rf-R3I" secondAttribute="bottom" constant="713" id="qFc-uT-2pC"/>
+                            <constraint firstItem="1bi-2b-JYK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="151" id="vf8-Dy-PFH"/>
+                            <constraint firstItem="V0T-25-5IC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="15" id="x1y-Xa-0Jc"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="7em-nZ-RV7"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="collectionView" destination="cEH-w0-Th5" id="1uW-04-29L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="88.392857142857139"/>
+        </scene>
+        <!--BestVC-->
+        <scene sceneID="sBr-OX-M5u">
+            <objects>
+                <viewController storyboardIdentifier="BestVC" id="RAX-Gw-rMm" customClass="BestVC" customModule="marketKurly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EYc-dl-w2R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="살려주세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Kx-Kt-Orv">
+                                <rect key="frame" x="52" y="509" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sQa-X3-YBh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S8e-gK-Y1f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="792"/>
+        </scene>
+        <!--ShoppingVC-->
+        <scene sceneID="tnU-8i-jKY">
+            <objects>
+                <viewController storyboardIdentifier="ShoppingVC" id="2ev-kH-zRr" customClass="ShoppingVC" customModule="marketKurly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W1Q-i4-8Cy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="살려주세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bx-xn-R9o">
+                                <rect key="frame" x="87" y="375" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Pmg-XR-Pgo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l0i-Yx-KlI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1899" y="792"/>
+        </scene>
+        <!--Curly RecVC-->
+        <scene sceneID="RwF-3h-fSV">
+            <objects>
+                <viewController storyboardIdentifier="CurlyRecVC" id="DfN-Kk-f4b" customClass="CurlyRecVC" customModule="marketKurly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k6V-Zg-vyr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="살려주세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJy-B4-sfa">
+                                <rect key="frame" x="170" y="438" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="67J-4d-ALU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="67J-4d-ALU" firstAttribute="bottom" secondItem="GJy-B4-sfa" secondAttribute="bottom" constant="403" id="Jg1-pd-eBE"/>
+                            <constraint firstItem="GJy-B4-sfa" firstAttribute="top" secondItem="67J-4d-ALU" secondAttribute="top" constant="394" id="MVF-LE-fi3"/>
+                            <constraint firstItem="67J-4d-ALU" firstAttribute="trailing" secondItem="GJy-B4-sfa" secondAttribute="trailing" constant="170" id="anZ-aS-LCs"/>
+                            <constraint firstItem="GJy-B4-sfa" firstAttribute="leading" secondItem="67J-4d-ALU" secondAttribute="leading" constant="170" id="ddW-f0-Nle"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UCL-gk-7va" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="88"/>
+        </scene>
+        <!--New ViewVC-->
+        <scene sceneID="n0v-CE-jGz">
+            <objects>
+                <viewController storyboardIdentifier="NewViewVC" id="Ug6-iU-h1M" customClass="NewViewVC" customModule="marketKurly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PBf-yM-LQN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="살려주세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8f-4Z-5Bg">
+                                <rect key="frame" x="224" y="480" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0wV-m6-dNQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eqo-iZ-2LU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1899" y="88"/>
+        </scene>
+        <!--BenefitVC-->
+        <scene sceneID="UMl-Od-hQR">
+            <objects>
+                <viewController storyboardIdentifier="BenefitVC" id="y24-j1-hqD" customClass="BenefitVC" customModule="marketKurly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MoK-yg-do6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="살려주세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMv-Lf-qPs">
+                                <rect key="frame" x="151" y="615" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aQ3-Hc-erK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JDO-Gp-18m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2812" y="88"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="buttonCart" width="31" height="27"/>
+        <image name="buttonMap" width="22" height="26"/>
+        <image name="iconLogo" width="74" height="44"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
