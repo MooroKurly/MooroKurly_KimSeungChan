@@ -30,7 +30,8 @@ class FirstVC: BaseViewController {
     
     func scrollToMenuIndex(menuIdx: Int){
         let indexPath = NSIndexPath(item: menuIdx, section: 0)
-        collectionView.isPagingEnabled = false4        collectionView.scrollToItem(at: indexPath as IndexPath, at: [], animated: true)
+        collectionView.isPagingEnabled = false;
+        collectionView.scrollToItem(at: indexPath as IndexPath, at: [], animated: true)
         collectionView.isPagingEnabled = true
     }
     
@@ -43,7 +44,7 @@ class FirstVC: BaseViewController {
     private func setUpMenuBar(){
         view.addSubview(menuBar)
         view.addConstraintsWithFormat(format: "H:|[v0]|", views: menuBar)
-        view.addConstraintsWithFormat(format: "V:|[v0(50)]", views: menuBar)
+        view.addConstraintsWithFormat(format: "V:|-83.3-[v0(39)]", views: menuBar)
     }
     
     override func viewDidLoad() {
@@ -59,6 +60,7 @@ class FirstVC: BaseViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.isPagingEnabled = true
+        self.navigationController?.navigationBar.isHidden = true
     }
 }
 

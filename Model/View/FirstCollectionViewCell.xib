@@ -32,7 +32,7 @@
             <connections>
                 <outlet property="firstLabel" destination="Hi3-tB-OXT" id="7Fb-Ta-07f"/>
             </connections>
-            <point key="canvasLocation" x="139" y="80"/>
+            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
         </collectionViewCell>
     </objects>
 </document>

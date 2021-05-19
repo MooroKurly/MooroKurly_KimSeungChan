@@ -12,7 +12,7 @@ class MenuBar: UIView,UICollectionViewDelegate, UICollectionViewDataSource,UICol
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        cv.backgroundColor = .yellow
+        cv.backgroundColor = .white;
         cv.register(FirstCollectionViewCell.nib(), forCellWithReuseIdentifier: "FirstCollectionViewCell")
         cv.dataSource = self
         cv.delegate = self
@@ -40,7 +40,7 @@ class MenuBar: UIView,UICollectionViewDelegate, UICollectionViewDataSource,UICol
     
     func setupHorizontalBar(){
         let horizontalBarView = UIView()
-        horizontalBarView.backgroundColor = .mainPurple
+        horizontalBarView.backgroundColor = .systemPink
         horizontalBarView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(horizontalBarView)
         horizontalBarLeftAnchorConstraint = horizontalBarView.leftAnchor.constraint(equalTo: self.leftAnchor)
