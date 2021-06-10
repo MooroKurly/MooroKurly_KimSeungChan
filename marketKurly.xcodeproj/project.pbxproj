@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80228273E95C5BBC2E1EBCCF /* Pods_marketKurly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C803875F138BFD47DC04972F /* Pods_marketKurly.framework */; };
 		EC2113C9264C4CB9007099CE /* FirstDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113C8264C4CB9007099CE /* FirstDataModel.swift */; };
 		EC2113CB264C4DD6007099CE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113CA264C4DD6007099CE /* BaseViewController.swift */; };
 		EC2113D1264CA29A007099CE /* CurlyRecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113D0264CA29A007099CE /* CurlyRecVC.swift */; };
@@ -14,8 +15,6 @@
 		EC2113D5264CA30A007099CE /* BestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113D4264CA30A007099CE /* BestVC.swift */; };
 		EC2113D7264CA31A007099CE /* ShoppingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113D6264CA31A007099CE /* ShoppingVC.swift */; };
 		EC2113D9264CA32C007099CE /* BenefitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113D8264CA32C007099CE /* BenefitVC.swift */; };
-		EC2113DD264CB6B7007099CE /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113DB264CB6B7007099CE /* FirstCollectionViewCell.swift */; };
-		EC2113DE264CB6B7007099CE /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC2113DC264CB6B7007099CE /* FirstCollectionViewCell.xib */; };
 		EC2113E0264CD486007099CE /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113DF264CD486007099CE /* MenuBar.swift */; };
 		EC2113E4264CEAD5007099CE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113E3264CEAD4007099CE /* MapViewController.swift */; };
 		EC2113E6264CEAE1007099CE /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2113E5264CEAE1007099CE /* BasketViewController.swift */; };
@@ -24,6 +23,10 @@
 		EC211414264D8A94007099CE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC211413264D8A94007099CE /* Extension.swift */; };
 		EC211419264D8DE9007099CE /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC211417264D8DE9007099CE /* DetailCollectionViewCell.swift */; };
 		EC21141A264D8DE9007099CE /* DetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC211418264D8DE9007099CE /* DetailCollectionViewCell.xib */; };
+		EC5E486C265F27A600A192CE /* CurlyRevCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E486B265F27A600A192CE /* CurlyRevCell.swift */; };
+		EC6014CA2663EB90006DB7CC /* CurlyListDataModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6014C92663EB90006DB7CC /* CurlyListDataModel1.swift */; };
+		EC6014D02663F535006DB7CC /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6014CE2663F535006DB7CC /* FirstCollectionViewCell.swift */; };
+		EC6014D12663F535006DB7CC /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6014CF2663F535006DB7CC /* FirstCollectionViewCell.xib */; };
 		EC935CDE264BA235000ECA22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC935CDD264BA235000ECA22 /* AppDelegate.swift */; };
 		EC935CE0264BA235000ECA22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC935CDF264BA235000ECA22 /* SceneDelegate.swift */; };
 		EC935CE2264BA235000ECA22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC935CE1264BA235000ECA22 /* ViewController.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03C4E9BF38764C4E08C40BF6 /* Pods-marketKurly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marketKurly.debug.xcconfig"; path = "Target Support Files/Pods-marketKurly/Pods-marketKurly.debug.xcconfig"; sourceTree = "<group>"; };
+		83D4A9AB5A2042F8BED5934E /* Pods-marketKurly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marketKurly.release.xcconfig"; path = "Target Support Files/Pods-marketKurly/Pods-marketKurly.release.xcconfig"; sourceTree = "<group>"; };
+		C803875F138BFD47DC04972F /* Pods_marketKurly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marketKurly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2113C8264C4CB9007099CE /* FirstDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDataModel.swift; sourceTree = "<group>"; };
 		EC2113CA264C4DD6007099CE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EC2113D0264CA29A007099CE /* CurlyRecVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurlyRecVC.swift; sourceTree = "<group>"; };
@@ -46,8 +52,6 @@
 		EC2113D4264CA30A007099CE /* BestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestVC.swift; sourceTree = "<group>"; };
 		EC2113D6264CA31A007099CE /* ShoppingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingVC.swift; sourceTree = "<group>"; };
 		EC2113D8264CA32C007099CE /* BenefitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitVC.swift; sourceTree = "<group>"; };
-		EC2113DB264CB6B7007099CE /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
-		EC2113DC264CB6B7007099CE /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
 		EC2113DF264CD486007099CE /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		EC2113E3264CEAD4007099CE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		EC2113E5264CEAE1007099CE /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,10 @@
 		EC211413264D8A94007099CE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		EC211417264D8DE9007099CE /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC211418264D8DE9007099CE /* DetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		EC5E486B265F27A600A192CE /* CurlyRevCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurlyRevCell.swift; sourceTree = "<group>"; };
+		EC6014C92663EB90006DB7CC /* CurlyListDataModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurlyListDataModel1.swift; sourceTree = "<group>"; };
+		EC6014CE2663F535006DB7CC /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC6014CF2663F535006DB7CC /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
 		EC935CDA264BA235000ECA22 /* marketKurly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marketKurly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC935CDD264BA235000ECA22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC935CDF264BA235000ECA22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,21 +84,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80228273E95C5BBC2E1EBCCF /* Pods_marketKurly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EA5C3DC007BEA6944403D58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C803875F138BFD47DC04972F /* Pods_marketKurly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B64C935F04F6FE4B7C98E242 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03C4E9BF38764C4E08C40BF6 /* Pods-marketKurly.debug.xcconfig */,
+				83D4A9AB5A2042F8BED5934E /* Pods-marketKurly.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EC2113CE264CA05E007099CE /* View */ = {
 			isa = PBXGroup;
 			children = (
 				EC935CE8264BA235000ECA22 /* LaunchScreen.storyboard */,
 				EC935CE3264BA235000ECA22 /* Main.storyboard */,
-				EC935CF3264BA661000ECA22 /* FirstVC.storyboard */,
 				EC935CF5264BA66A000ECA22 /* SecondVC.storyboard */,
-				EC2113DB264CB6B7007099CE /* FirstCollectionViewCell.swift */,
-				EC2113DC264CB6B7007099CE /* FirstCollectionViewCell.xib */,
+				EC6014CE2663F535006DB7CC /* FirstCollectionViewCell.swift */,
+				EC6014CF2663F535006DB7CC /* FirstCollectionViewCell.xib */,
 				EC935CF7264BA672000ECA22 /* ThirdVC.storyboard */,
 				EC935CF9264BA67A000ECA22 /* FourthVC.storyboard */,
 				EC935CFB264BA686000ECA22 /* FifthVC.storyboard */,
@@ -103,6 +129,7 @@
 			children = (
 				EC935CE1264BA235000ECA22 /* ViewController.swift */,
 				EC935CF1264BA4FA000ECA22 /* MainTabBarController.swift */,
+				EC2113CE264CA05E007099CE /* View */,
 				EC2113DA264CA374007099CE /* FirstViewVC */,
 			);
 			path = Controller;
@@ -112,28 +139,42 @@
 			isa = PBXGroup;
 			children = (
 				EC2113E3264CEAD4007099CE /* MapViewController.swift */,
-				EC211411264D77AF007099CE /* FirstVC.swift */,
 				EC211413264D8A94007099CE /* Extension.swift */,
 				EC2113DF264CD486007099CE /* MenuBar.swift */,
 				EC2113E5264CEAE1007099CE /* BasketViewController.swift */,
-				EC2113CA264C4DD6007099CE /* BaseViewController.swift */,
 				EC2113D0264CA29A007099CE /* CurlyRecVC.swift */,
+				EC5E486B265F27A600A192CE /* CurlyRevCell.swift */,
+				EC6014C92663EB90006DB7CC /* CurlyListDataModel1.swift */,
 				EC211417264D8DE9007099CE /* DetailCollectionViewCell.swift */,
 				EC211418264D8DE9007099CE /* DetailCollectionViewCell.xib */,
-				EC2113D2264CA2C4007099CE /* NewViewVC.swift */,
-				EC2113D4264CA30A007099CE /* BestVC.swift */,
-				EC2113D6264CA31A007099CE /* ShoppingVC.swift */,
-				EC2113D8264CA32C007099CE /* BenefitVC.swift */,
+				EC6014CB2663EDA3006DB7CC /* MainView */,
 			);
 			path = FirstViewVC;
+			sourceTree = "<group>";
+		};
+		EC6014CB2663EDA3006DB7CC /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				EC2113CA264C4DD6007099CE /* BaseViewController.swift */,
+				EC2113D6264CA31A007099CE /* ShoppingVC.swift */,
+				EC2113D4264CA30A007099CE /* BestVC.swift */,
+				EC2113D2264CA2C4007099CE /* NewViewVC.swift */,
+				EC2113D8264CA32C007099CE /* BenefitVC.swift */,
+				EC935CF3264BA661000ECA22 /* FirstVC.storyboard */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 		EC935CD1264BA235000ECA22 = {
 			isa = PBXGroup;
 			children = (
 				EC21140F264D721A007099CE /* Color.swift */,
+				EC211411264D77AF007099CE /* FirstVC.swift */,
+				EC2113CF264CA081007099CE /* Controller */,
 				EC935CDC264BA235000ECA22 /* Model */,
 				EC935CDB264BA235000ECA22 /* Products */,
+				B64C935F04F6FE4B7C98E242 /* Pods */,
+				1EA5C3DC007BEA6944403D58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,8 +192,6 @@
 				EC935CDD264BA235000ECA22 /* AppDelegate.swift */,
 				EC935CDF264BA235000ECA22 /* SceneDelegate.swift */,
 				EC2113C8264C4CB9007099CE /* FirstDataModel.swift */,
-				EC2113CE264CA05E007099CE /* View */,
-				EC2113CF264CA081007099CE /* Controller */,
 				EC935CE6264BA235000ECA22 /* Assets.xcassets */,
 			);
 			path = Model;
@@ -165,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC935CEE264BA235000ECA22 /* Build configuration list for PBXNativeTarget "marketKurly" */;
 			buildPhases = (
+				266A96A5DDBC1C48688E54C3 /* [CP] Check Pods Manifest.lock */,
 				EC935CD6264BA235000ECA22 /* Sources */,
 				EC935CD7264BA235000ECA22 /* Frameworks */,
 				EC935CD8264BA235000ECA22 /* Resources */,
+				E114DFAE43AFC4E750F2A7C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +263,7 @@
 				EC935CFA264BA67A000ECA22 /* FourthVC.storyboard in Resources */,
 				EC935CF8264BA672000ECA22 /* ThirdVC.storyboard in Resources */,
 				EC935CF4264BA661000ECA22 /* FirstVC.storyboard in Resources */,
-				EC2113DE264CB6B7007099CE /* FirstCollectionViewCell.xib in Resources */,
+				EC6014D12663F535006DB7CC /* FirstCollectionViewCell.xib in Resources */,
 				EC935CE5264BA235000ECA22 /* Main.storyboard in Resources */,
 				EC21141A264D8DE9007099CE /* DetailCollectionViewCell.xib in Resources */,
 			);
@@ -230,25 +271,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		266A96A5DDBC1C48688E54C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-marketKurly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E114DFAE43AFC4E750F2A7C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-marketKurly/Pods-marketKurly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-marketKurly/Pods-marketKurly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-marketKurly/Pods-marketKurly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC935CD6264BA235000ECA22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6014D02663F535006DB7CC /* FirstCollectionViewCell.swift in Sources */,
 				EC2113D9264CA32C007099CE /* BenefitVC.swift in Sources */,
+				EC5E486C265F27A600A192CE /* CurlyRevCell.swift in Sources */,
 				EC2113D7264CA31A007099CE /* ShoppingVC.swift in Sources */,
 				EC2113C9264C4CB9007099CE /* FirstDataModel.swift in Sources */,
 				EC211410264D721A007099CE /* Color.swift in Sources */,
 				EC211419264D8DE9007099CE /* DetailCollectionViewCell.swift in Sources */,
 				EC935CE2264BA235000ECA22 /* ViewController.swift in Sources */,
 				EC935CDE264BA235000ECA22 /* AppDelegate.swift in Sources */,
+				EC6014CA2663EB90006DB7CC /* CurlyListDataModel1.swift in Sources */,
 				EC2113CB264C4DD6007099CE /* BaseViewController.swift in Sources */,
 				EC2113D5264CA30A007099CE /* BestVC.swift in Sources */,
 				EC2113D1264CA29A007099CE /* CurlyRecVC.swift in Sources */,
 				EC211414264D8A94007099CE /* Extension.swift in Sources */,
 				EC935CF2264BA4FA000ECA22 /* MainTabBarController.swift in Sources */,
 				EC2113D3264CA2C4007099CE /* NewViewVC.swift in Sources */,
-				EC2113DD264CB6B7007099CE /* FirstCollectionViewCell.swift in Sources */,
 				EC2113E0264CD486007099CE /* MenuBar.swift in Sources */,
 				EC211412264D77AF007099CE /* FirstVC.swift in Sources */,
 				EC2113E4264CEAD5007099CE /* MapViewController.swift in Sources */,
@@ -397,6 +482,7 @@
 		};
 		EC935CEF264BA235000ECA22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C4E9BF38764C4E08C40BF6 /* Pods-marketKurly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -416,6 +502,7 @@
 		};
 		EC935CF0264BA235000ECA22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D4A9AB5A2042F8BED5934E /* Pods-marketKurly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
